@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div id="card">
+        <div id="header">
+            <div id="arrow">
+                <i id="icon1" class="fa-solid fa-angle-left fa-xl"></i>
+            </div>
+            <div id="list">
+                <i id="icon2" class="fa-solid fa-list fa-xl"></i>
+            </div>
+            
+
+           
+        </div>
+        <div id="imgsection">
+            <img src="468-thumbnail.png">
+        </div>
+        <div id="text">
+            <p id="text1">Despacito</p>
+            <p id="text2">Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+        </div>
+        <div id="line"> 
+            <audio  id="song">
+                <source src="Go! - NEFFEX.mp3" type="audio/mpeg">
+            </audio>
+            <input type="range" value="0" id="progress">
+
+        </div>
+      
+        <div id="buttons">
+            <div class="arrow" id="leftArrow">
+                <i id="icon3" class="fa-solid fa-backward"></i>
+
+            </div>
+          
+          
+            <div class="arrow"  id="play">
+                <i id="icon4" class="fa-solid fa-play"></i>
+            </div>
+            <div class="arrow"  id="rightArrow">
+                <i id="icon5" class="fa-solid fa-forward"></i>
+            </div>
+           
+
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
